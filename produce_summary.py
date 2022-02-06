@@ -39,10 +39,12 @@
 #     print(f"Delivered {count} {melon}s for total of ${amount}")
 # the_file.close()
 
-# creates a function that opens a delivery report
-# prints out a string with type of melons, count, and amount
+
 
 def delivery_report(file):
+    """
+    Opens a delivery report and prints out a string with type of melons, count, amount
+    """
 
     print("*** Report from " + str(file) + " ***")
 
