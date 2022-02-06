@@ -76,3 +76,5 @@ def delivery_report(file):
 delivery_report("um-deliveries-day-1.txt")
 delivery_report("um-deliveries-day-2.txt")
 delivery_report("um-deliveries-day-3.txt")
+
+# next steps: create dictionaries instead of single-string tallies
